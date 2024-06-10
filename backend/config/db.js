@@ -4,7 +4,6 @@ dotenv.config();
 
 const connectDB = async () => {
   try {
-    // console.log(mongoose);
     // console.log(process.env.JWT_SECRET);
 
     if (!process.env.MONGO_URI) {
